@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Playfair+Display:wght@600&display=swap');
+.banner-section-bg-container-noB {
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-heading-noB {
+    color: #FFFFFF;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 80px;
+    letter-spacing: -2.25px;
+  }
+  .d-flex-noB{
+    display:flex;
+    flex-direction:column;
+    flex-direction:column;
+    justify-content:center;
+    }
+.banner-parrafo
+{
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+        font-size: 16px;
+}

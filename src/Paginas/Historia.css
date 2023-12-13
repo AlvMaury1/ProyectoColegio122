@@ -1,0 +1,23 @@
+/* Importar la fuente para los textos de la Historia */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+/* Estilos para la columna de texto principal en la Historia */
+.TextoPrincipalHistoria {
+    padding-top: 10px;
+    font-family: 'Arial', Sans-serif; /* Utilizar Playfair Display como fuente principal */
+    color: #004080; /* Cambiar el color del texto principal a un tono azul oscuro */
+    font-size: 1.5em; /* Ajustar el tamaño de la fuente según sea necesario */
+    line-height: 1.4; /* Ajustar el espaciado entre líneas */
+    text-align: justify; /* Alinear el texto justificado */
+    /* Añadir otros estilos para la estética, como márgenes, bordes, etc. */
+}
+
+/* Estilos para la columna de texto secundario en la Historia */
+.TextoSecundarioHistoria {
+    font-family: 'Arial', Sans-serif; /* Utilizar Playfair Display como fuente principal */
+    padding-top: 10px;
+    color: #333; /* Cambiar el color del texto secundario a un tono más oscuro */
+    font-size: 1em; /* Ajustar el tamaño de la fuente según sea necesario */
+    text-align: justify; /* Alinear el texto justificado */
+    /* Añadir otros estilos para la estética, como márgenes, bordes, etc. */
+}

@@ -1,0 +1,13 @@
+.Main-footer-container {
+    background-color: #060622;
+    color: #adadad;
+    padding: 5px; /* Reducir aún más el espacio interno para hacerlo más delgado */
+    text-align: center;
+  }
+  
+  .footer-text {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  

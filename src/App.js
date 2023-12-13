@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MenuPrincipal from './Paginas/MenuPrincipal';
+import MuseoNaval from './Paginas/MuseoNaval';
+import Historia from './Paginas/Historia';
+import Galeria from './Paginas/Galeria';
+import Actividades from './Paginas/Actividades';
+import Autoridades from './Paginas/Autoridades';
+import Comunicados from './Paginas/Comunicados';
+import Contacto from './Paginas/Contacto';
+import Instalaciones from './Paginas/Instalaciones';
+import DatosPersonales from './Paginas/DatosPersonales';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+      <Route path="/" element={<MenuPrincipal />} />
+      <Route path="/museo-naval" element={<MuseoNaval />} />
+      <Route path="/historia" element={<Historia />} />
+      <Route path="/galeria" element={<Galeria />} />
+      <Route path="/actividades" element={<Actividades />} />
+      <Route path="/autoridades" element={<Autoridades />} />
+      <Route path="/comunicados" element={<Comunicados />} />
+      <Route path="/contacto" element={<Contacto />} />
+      <Route path="/instalaciones" element={<Instalaciones />} />
+      <Route path="/datos-personales" element={<DatosPersonales />} />
+
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

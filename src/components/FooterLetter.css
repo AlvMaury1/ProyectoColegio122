@@ -1,0 +1,16 @@
+.footer-container {
+    color: #fff;
+    text-align: left;
+    font-family: 'Arial';
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-email,
+  .footer-phone {
+    color: #66e5ff;
+  }
